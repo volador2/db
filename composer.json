@@ -1,0 +1,20 @@
+{
+    "name": "volador2/db",
+    "description": "volador database drivers",
+    "keywords": ["volador", "db", "database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangchao",
+            "email": "104674319@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volador\\Db\\": ""
+        }
+    }
+}
